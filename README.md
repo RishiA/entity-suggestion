@@ -15,10 +15,10 @@ The main objective of this application is to provide an easy-to-use interface th
 - **CSS**: Custom CSS styles for the front-end to provide a clean and responsive design.
 
 ## Features
-- Front-end form to gather information about prospects, including the number of employees and the states in which they operate.
+- Front-end form to gather information about prospects.
 - A dynamic state selector with typeahead functionality for easy input of multiple states.
 - Integration with Supabase for storing form submissions and managing the business rules used to determine entity recommendations.
-- Server-side rules engine that provides JWEG recommendations based on input criteria.
+- Server-side rules engine that provides entity recommendations based on input criteria.
 - Hosted on Vercel for easy access and fast deployments.
 
 ---
