@@ -72,7 +72,7 @@ const JwegForm = () => {
       </div>
 
       <div>
-        <label><strong>Total employees</strong></label>
+        <label><strong>Total Employees</strong></label>
         <input type="number" {...register('numEmployees', { required: true, max: 100 })} />
         {errors.numEmployees && <p>Must be a number between 1 and 100</p>}
       </div>
@@ -84,7 +84,7 @@ const JwegForm = () => {
       </div>
 
       <div>
-        <label><strong>Part-time employees</strong></label>
+        <label><strong>Part-time Employees</strong></label>
         <input type="number" {...register('partTimeEmployees', { required: true })} />
         {errors.partTimeEmployees && <p>This field is required</p>}
       </div>
