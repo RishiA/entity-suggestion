@@ -30,7 +30,7 @@ const JwegForm = () => {
   const partTimeEmployees = Number(data.partTimeEmployees);
   
   if (fullTimeEmployees + partTimeEmployees !== totalEmployees) {
-    alert('The sum of full-time and part-time employees must equal the total number of employees.');
+    alert('Total employees cannot be less than sum of full-time and part-time employees.');
     return;
   }
 
